@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex min-h-svh items-center justify-center bg-[url('/background.svg')] bg-cover">
+    <div className="flex min-h-svh items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-6 text-center">
         <div className="grid justify-items-center">
           <span className="bg-primary w-fit px-4 py-1 rounded-full text-primary-foreground">mudo.muzaaqi.my.id</span>
