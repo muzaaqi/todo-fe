@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${jakartaSans.variable} ${lora.variable} ${ibmPlexMono.variable} bg-[url('/background.svg')] dark:bg-[url('/background-dark.svg')] bg-cover antialiased`}
+        className={`${jakartaSans.variable} ${lora.variable} ${ibmPlexMono.variable} bg-[url('/background.svg')] bg-cover antialiased dark:bg-[url('/background-dark.svg')]`}
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <Navbar />
